@@ -48,13 +48,13 @@ const guessingGame = Math.floor(Math.random()*100 +1);
             }
         }
 
-        if(numbers.value > guessingGame){
+        if(numbers.value > guessingGame ){
                higher.innerHTML= `${numbers.value}`
         }else{
             lower.innerHTML =` ${numbers.value}`
         }
         
-   
+        
        
         
     });
