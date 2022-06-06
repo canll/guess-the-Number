@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 10rem;
+    width: 100vw;
+    height:100vh ;
+     background-image: url(./images/bingo-1044718_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    text-align: center;
+   
+}
+
+h1{
+    margin-bottom: 4rem;
+    color: gray;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+#guess{
+    margin-bottom: 2rem;
+    display: inline-block;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid gray;
+    font-size: 2rem;
+    width:  8rem;
+    border-radius: 15px;
+
+
+}
+button{
+    background-color: white;
+    color: gray;
+    border: none;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 15px;
+    transition: all 0.5s;
+    font-size: 1.5rem;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+}
+
+
+h4{
+ color: blueviolet;
+ font-size: 1.5rem;
+}
+.reset {
+    background-color: lightcoral;
+    display: inline-block;
+    padding: 1rem;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    margin: 2rem;
+}
+span{
+    color: crimson;
+}
